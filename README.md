@@ -18,5 +18,21 @@ Para cada moeda desejada seu fullnode deverá ser executado "localmente" pois TO
 
 ### Adapter - API
 
+Cada módulo de Adapter será uma "ponte adaptadora! entre a API específica de cada moeda com a API genérica, para isso precisamos ter as seguintes funcionalidades EM TODAS as moedas:
+
+- getBalance;
+- getDepositAddress;
+- getWhitdrawAddress;
+- send/pay;
+- receive;
+
 
 ### Facade - API
+
+Por hora temos as seguinte funcionalidades básicas:
+
+- getBalance;
+- getDepositAddress;
+- getWhitdrawAddress;
+- send/pay;
+- receive;
